@@ -49,6 +49,7 @@ Os testes foram executados no ambiente de desenvolvimento utilizando o gerenciad
 
 
 ### Resultado
+![image](https://github.com/Ra2861/aplicando-testes/assets/99209068/5b40342a-e99b-4561-92fb-f68ede9c9084)
 
 ***NUnit***
 
@@ -88,6 +89,7 @@ Caso de uso: Verificar a conversão do ponto de ebulição da água em Fahrenhei
 Resultado esperado: 212°F deve ser convertido para 100°C.
 
 ### Resultados
+![image](https://github.com/Ra2861/aplicando-testes/assets/99209068/7bc94d49-fdad-442f-ad46-6ef7bd7e2e07)
 
 ***MSTest***
 
@@ -130,4 +132,4 @@ Caso de uso: Verificar a conversão do ponto de ebulição da água em Fahrenhei
 Resultado esperado: 212°F deve ser convertido para 100°C.
 
 ### Resultados
-
+![image](https://github.com/Ra2861/aplicando-testes/assets/99209068/ccd504c6-1772-44a5-9bfd-31d4edb72094)
