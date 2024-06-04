@@ -89,3 +89,45 @@ Resultado esperado: 212°F deve ser convertido para 100°C.
 
 ### Resultados
 
+***MSTest***
+
+![image](https://github.com/Ra2861/aplicando-testes/assets/99209068/25aee278-09a1-45e3-b45b-4dabf4074b41)
+
+### Estrutura do Teste
+O teste está estruturado da seguinte maneira:
+
+[TestClass]: Define uma classe que contém testes.
+[DataTestMethod]: Define um método que é um teste de unidade e pode receber várias entradas de dados.
+[DataRow]: Atributo utilizado para fornecer os dados de entrada (temperatura em Fahrenheit) e o resultado esperado (temperatura em Celsius) para o teste.
+
+### Resultados esperados
+
+Para cada caso de uso, o valor calculado pelo método FahrenheitParaCelsius deve ser igual ao valor esperado (temperatura em Celsius). Se todos os casos de teste passarem, isso indica que a função está convertendo corretamente as temperaturas de Fahrenheit para Celsius conforme esperado. Caso contrário, o teste falhará, indicando que há um problema na lógica de conversão.
+
+Entrada: 32°F, Esperado: 0°C
+
+Caso de uso: Verificar a conversão do ponto de congelamento da água em Fahrenheit para Celsius.
+Resultado esperado: 32°F deve ser convertido para 0°C.
+Entrada: 47°F, Esperado: 8.33°C
+
+Caso de uso: Verificar a conversão de uma temperatura comum em Fahrenheit para Celsius.
+Resultado esperado: 47°F deve ser convertido para aproximadamente 8.33°C.
+Entrada: 86°F, Esperado: 30°C
+
+Caso de uso: Verificar a conversão de uma temperatura moderadamente alta em Fahrenheit para Celsius.
+Resultado esperado: 86°F deve ser convertido para 30°C.
+Entrada: 90.5°F, Esperado: 32.5°C
+
+Caso de uso: Verificar a conversão de uma temperatura com valor decimal em Fahrenheit para Celsius.
+Resultado esperado: 90.5°F deve ser convertido para 32.5°C.
+Entrada: 120.18°F, Esperado: 48.99°C
+
+Caso de uso: Verificar a conversão de uma temperatura elevada com valor decimal em Fahrenheit para Celsius.
+Resultado esperado: 120.18°F deve ser convertido para aproximadamente 48.99°C.
+Entrada: 212°F, Esperado: 100°C
+
+Caso de uso: Verificar a conversão do ponto de ebulição da água em Fahrenheit para Celsius.
+Resultado esperado: 212°F deve ser convertido para 100°C.
+
+### Resultados
+
